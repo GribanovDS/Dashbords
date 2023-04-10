@@ -1,13 +1,12 @@
 # Superset
+Apache Superset is an open-source software for exploring and visualizing data, designed for big data.
 
-Apache Superset - это открытое программное обеспечение для исследования и визуализации данных, ориентированное на большие данные
+## About data
+Below is an example of my dashboards made based on data from a messenger application with a news feed. Real data is updated every minute, so it is important to have charts not only for past periods but also for today in order to compare with previous time periods and see how our metrics are doing. Luckily, the Apache Superset toolkit allows for this. So we have two tables, all user events with the news feed and all events with the messenger, respectively.
 
-## Про данные
-Ниже будет приведен пример моих дашбордов, сделанные на основе данных приложения мессенджера с новостной лентой. Реальные данные обновляются ежеминутно, поэтому важно иметь графики не только за прошлые периоды, но и за сегодняшний день, чтобы посмотреть в сравнении с предыдущими отрезками времени, что у нас все хорошо с метриками. Благо инструментарий Apache Superset это позволяет. 
-Итак у нас есть две таблицы, все события пользователей с лентой новостей и все события с мессенджером соответственно.
-## Пример моих дашбордов
-Главный вопрос, на который должна отвечать аналитика на самом начальном этапе — это вопрос «сколько?».
-На практике это означает, что если нам поручили настроить аналитику продукта, нужно начать с нескольких базовых дашбордов, которые покрывают собой ключевые аудиторные метрики и ключевые события нашего продукта. В лекции мы заложили основу двух дашбордов по ленте новостей, ваша задача теперь доделать эти дашборды. Подумайте, какие еще графики, срезы, метрики имеет смысл добавить на дашборды. С чего начать? Может, например, стоит как-то отобразить число событий на одного юзера?
-1) Основной дашборд за прошлое время. 
+## Example of my dashboards
+The main question that analytics should answer at the very beginning is "how much?". In practice, this means that if we were tasked with setting up product analytics, we need to start with several basic dashboards that cover key audience metrics and key events of our product. In the lecture, we laid the foundation for two dashboards for the news feed, and now your task is to complete these dashboards. Think about what other charts, slices, and metrics make sense to add to the dashboards. Where to start? Perhaps, for example, it is worth displaying the number of events per user in some way?
+
+1) Main dashboard for past time.
 ![лента-и-сообщения-основное-2023-04-10T11-31-02 377Z](https://user-images.githubusercontent.com/74065724/230894629-21138ea1-bb35-4545-a2ef-3da4db0e41ce.jpg)
-2) Оперативный дашборд с графиками за сегодняшний день. ![лента-новостей-оперативные-данные-2023-04-10T11-40-29 748Z](https://user-images.githubusercontent.com/74065724/230894912-6d36ecea-b19f-48aa-8f6b-ed70a1d7d4a2.jpg)
+2) Operational dashboard with charts for today. ![лента-новостей-оперативные-данные-2023-04-10T11-40-29 748Z](https://user-images.githubusercontent.com/74065724/230894912-6d36ecea-b19f-48aa-8f6b-ed70a1d7d4a2.jpg)
